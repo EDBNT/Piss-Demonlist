@@ -1,18 +1,14 @@
 [
     {
-        "role": "owner",
+        "role": "Admin",
         "name": "EdBnt",
     },
     {
-        "role": "mod",
-        "name": "nNever444",
+        "role": "Moderator",
+        "name": "FyreYak",
     },
     {
-        "role": "mod",
-        "name": "Yonabi",
-    },
-    {
-        "role": "mod",
-        "name": "Fryak",
+        "role": "Moderator",
+        "name": "Minhgo",
     }
 ]
