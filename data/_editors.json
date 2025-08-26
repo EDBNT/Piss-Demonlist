@@ -1,14 +1,14 @@
 [
     {
-        "role": "Admin",
+        "role": "owner",
         "name": "EdBnt",
     },
     {
-        "role": "Moderator",
+        "role": "helper",
         "name": "FyreYak",
     },
     {
-        "role": "Moderator",
+        "role": "helper",
         "name": "Minhgo",
     }
 ]
