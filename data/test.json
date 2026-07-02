@@ -13,7 +13,13 @@
             "link": "https://www.youtube.com/watch?v=wotpVWQu_w4",
             "percent": 100,
             "hz": 75
-        }
+        },
         
+         {
+            "user": "hiindeed",
+            "link": "https://www.youtube.com/watch?v=6ClqesfoI7I",
+            "percent": 100,
+            "hz": 144
+        }
     ]
 }
