@@ -8,7 +8,12 @@
     "percentToQualify": 62,
     "password": "N/A",
     "records": [
-        
+          {
+            "user": "hiindeed",
+            "link": "https://www.youtube.com/watch?v=4O_XLidA_mQ",
+            "percent": 100,
+            "hz": "144"
+        }
         
     ]
 }
