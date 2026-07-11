@@ -8,6 +8,12 @@
     "percentToQualify": 75,
     "password": "N/A",
     "records": [
+          {
+            "user": "EdBnt",
+            "link": "https://www.youtube.com/watch?v=PTz2_RJSYkk",
+            "percent": 100,
+            "hz": "165"
+        }
         
         
     ]
