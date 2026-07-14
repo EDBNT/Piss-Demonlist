@@ -8,7 +8,12 @@
     "percentToQualify": 50,
     "password": "N/A",
     "records": [
-        
+        {
+            "user": "nNever444",
+            "link": "https://youtu.be/ILl2v5lsCOo?si=V_wJ4ySNZ35gMkY2",
+            "percent": 100,
+            "hz": "240"
+        }
         
     ]
 }
