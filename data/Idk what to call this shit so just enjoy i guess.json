@@ -8,5 +8,11 @@
     "percentToQualify": 35,
     "password": "N/A",
     "records": [
+         {
+            "user": "ReRated",
+            "link": "https://www.youtube.com/watch?v=Q4V_TC29K_A",
+            "percent": 100,
+            "hz": "240"
+        }
     ]
 }
