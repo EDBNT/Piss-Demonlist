@@ -1,0 +1,26 @@
+{
+    "id": 386,
+    "name": "As One Block Raises The Other Vibes",
+    "author": "Fryak",
+    "creators": ["Fryak"],
+    "verifier": "Fryak",
+    "verification": "https://www.youtube.com/watch?v=7NOmGaNi9CM",
+    "percentToQualify": 100,
+    "password": "N/A",
+    "records": [
+          {
+            "user": "hiindeed",
+            "link": "https://www.youtube.com/watch?v=cKxZy-cuU2g",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "nNever444",
+            "link": "https://youtu.be/tzVl0bxXDm4?si=7sTzRCUTpRPhDofy",
+            "percent": 100,
+            "hz": "240"
+        }    
+
+        
+    ]
+}
