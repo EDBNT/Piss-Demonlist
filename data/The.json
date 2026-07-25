@@ -8,7 +8,12 @@
     "percentToQualify": 100,
     "password": "N/A",
     "records": [
-        
+         {
+            "user": "Wasp",
+            "link": "https://www.youtube.com/watch?v=Kn8jI8S37G4",
+            "percent": 100,
+            "hz": "144"
+        }
         
     ]
 }
