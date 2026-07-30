@@ -4,15 +4,11 @@
         "name": "EdBnt"
     },
     {
-        "role": "helper",
+        "role": "admin",
         "name": "FyreYak"
     },
-    {
-        "role": "helper",
-        "name": "Minhgo"
-    },
 	{
-        "role": "helper",
+        "role": "admin",
         "name": "Piwitchoupi"
     }
 ]
