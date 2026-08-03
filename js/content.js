@@ -12,6 +12,8 @@ export async function fetchList() {
     try {
         const list = await listResult.json();
 
+        // Filter for only levels that don't start with benchmarker char
+        // Then map them to a 2d array before turning it into an Object
         const ranksEntries = list
             .filter((path) => !path.startsWith(benchmarker))
             .map((path, index) => [path, index + 1]);
