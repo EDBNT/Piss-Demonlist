@@ -5,18 +5,28 @@ import { round, score } from './score.js';
  */
 const dir = '/data';
 
+const benchmarker = "_";
+
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
     try {
         const list = await listResult.json();
+
+        const ranksEntries = list
+            .filter((path) => !path.startsWith(benchmarker))
+            .map((path, index) => [path, index + 1]);
+        const ranks = Object.fromEntries(ranksEntries);
+
         return await Promise.all(
-            list.map(async (path, rank) => {
-                const levelResult = await fetch(`${dir}/${path}.json`);
+            list.map(async (path) => {
+                const rank = ranks[path] || null;
                 try {
+                    const levelResult = await fetch(`${dir}/${path}.json`);
                     const level = await levelResult.json();
                     return [
                         {
                             ...level,
+                            rank,
                             path,
                             records: level.records.sort(
                                 (a, b) => b.percent - a.percent,
@@ -51,7 +61,7 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
-    list.forEach(([level, err], rank) => {
+    list.forEach(([level, err]) => {
         if (err) {
             errs.push(err);
             return;
@@ -68,9 +78,9 @@ export async function fetchLeaderboard() {
         };
         const { verified } = scoreMap[verifier];
         verified.push({
-            rank: rank + 1,
+            rank: level.rank,
             level: level.name,
-            score: score(rank + 1, 100, level.percentToQualify),
+            score: level.rank != null ? score(level.rank, 100, level.percentToQualify) : 0,
             link: level.verification,
         });
 
@@ -87,19 +97,19 @@ export async function fetchLeaderboard() {
             const { completed, progressed } = scoreMap[user];
             if (record.percent === 100) {
                 completed.push({
-                    rank: rank + 1,
+                    rank: level.rank,
                     level: level.name,
-                    score: score(rank + 1, 100, level.percentToQualify),
+                    score: level.rank != null ? score(level.rank, 100, level.percentToQualify) : 0,
                     link: record.link,
                 });
                 return;
             }
 
             progressed.push({
-                rank: rank + 1,
+                rank: level.rank,
                 level: level.name,
                 percent: record.percent,
-                score: score(rank + 1, record.percent, level.percentToQualify),
+                score: level.rank != null ? score(level.rank, record.percent, level.percentToQualify) : 0,
                 link: record.link,
             });
         });
