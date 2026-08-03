@@ -98,8 +98,8 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
-					<h5>Basic Guidelines</h5>
+                    <h2>Submission Requirements</h2>
+					<h3>Basic Guidelines</h3>
                     <p>
                         The completion must be done on the level that is listed on the site.
                     </p>
@@ -115,7 +115,7 @@ export default {
                     <p>
                         The recording must show the ending screen (attempts, jumps, etc.)
                     </p>
-					<h5>Skips/Secret ways</h5>
+					<h3>Skips/Secret ways</h3>
                     <p>
                         If the completion uses a skip that significantly lowers the difficulty of the level (e.g. missing a fast speed portal in a wave part), it is up to the creator of the level to patch and disallow it.
                     </p>
@@ -125,7 +125,7 @@ export default {
 					<p>
 						- If they don't, the completion will be accepted, and the level's placement will be re-evaluated accounting for the skip.
 					</p>
-					<h5>Level Position</h5>
+					<h3>Level Position</h3>
                     <p>
                         Once a level falls into the Legacy list (out of the top 69), records for it will still be accepted until 24 hours later.
                     </p>
