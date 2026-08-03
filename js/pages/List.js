@@ -99,30 +99,39 @@ export default {
                         </ol>
                     </template>
                     <h3>Submission Requirements</h3>
+					<h4>Basic Guidelines</h4>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        The completion must be done on the level that is listed on the site.
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        The recording must show the entire death animation of the previous attempt. If the completion is on the first attempt, it must show the player enter the level.
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        The recording must have all clicks audible throughout the completion.
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                        The recording must contain a visible Cheat Indicator.
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        The recording must show the ending screen (attempts, jumps, etc.)
                     </p>
+					<h4>Skips/Secret ways</h4>
                     <p>
-                        Do not use secret routes or bug routes
+                        If the completion uses a skip that significantly lowers the difficulty of the level (e.g. missing a fast speed portal in a wave part), it is up to the creator of the level to patch and disallow it.
                     </p>
+					<p>
+						- If they do, the completion will be rejected.
+					</p>
+					<p>
+						- If they don't, the completion will be accepted, and the level's placement will be re-evaluated accounting for the skip.
+					</p>
+					<h4>Level Position</h4>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                        Once a level falls into the Legacy list (out of the top 69), records for it will still be accepted until 24 hours later.
                     </p>
-                    <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
-                    </p>
+					<p>
+						If a level is brought out of the Legacy list, records for it will be accepted until it falls back in.
+					</p>
                 </div>
             </div>
         </main>
