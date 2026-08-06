@@ -4,13 +4,13 @@
     "author": "EdBnt",
     "creators": ["EdBnt"],
     "verifier": "EdBnt",
-    "verification": "https://www.youtube.com/watch?v=Ya6BUxW85Ww",
+    "verification": "https://www.youtube.com/watch?v=Ya6BUxW85Ww&t=117s",
     "percentToQualify": 100,
     "password": "N/A",
     "records": [
          {
             "user": "ReRated",
-            "link": "https://www.youtube.com/watch?v=h8TD7yUQ854",
+            "link": "https://www.youtube.com/watch?v=h8TD7yUQ854&t=97s",
             "percent": 100,
             "hz": "240"
         }
