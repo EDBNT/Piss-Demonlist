@@ -8,6 +8,12 @@
     "percentToQualify": 100,
     "password": "N/A",
     "records": [
+	    {
+            "user": "Piwitchoupi",
+            "link": "https://www.youtube.com/watch?v=kFOZmallOc4",
+            "percent": 100,
+            "hz": "240"
+        }
         
         
     ]
