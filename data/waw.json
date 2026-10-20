@@ -1,15 +1,15 @@
 {
     "id": 424,
     "name": "WAW",
-    "author": "nNever444",
-    "creators": ["nNever444"],
+    "author": "nev",
+    "creators": ["nev"],
     "verifier": "ReRated",
     "verification": "https://www.youtube.com/watch?v=h8TD7yUQ854",
     "percentToQualify": 100,
     "password": "N/A",
     "records": [
           {
-            "user": "nNever444",
+            "user": "nev",
             "link": "https://www.youtube.com/watch?v=g63-wPEKBu4",
             "percent": 100,
             "hz": "240"
