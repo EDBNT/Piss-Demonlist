@@ -9,6 +9,12 @@
     "password": "N/A",
     "records": [
         {
+            "user": "EdBnt",
+            "link": "https://www.youtube.com/watch?v=lcUaqlwrdPc",
+            "percent": 100,
+            "hz": "165"
+        },
+        {
             "user": "Piwitchoupi",
             "link": "https://www.youtube.com/watch?v=m3gbQgmOETI",
             "percent": 100,
