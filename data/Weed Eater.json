@@ -5,7 +5,7 @@
     "creators": ["Wasp"],
     "verifier": "EdBnt",
     "verification": "https://www.youtube.com/watch?v=lcUaqlwrdPc",
-    "percentToQualify": 100,
+    "percentToQualify": 50,
     "password": "N/A",
     "records": [
         {
