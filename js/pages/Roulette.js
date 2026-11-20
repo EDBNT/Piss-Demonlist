@@ -170,8 +170,9 @@ export default {
             this.loading = true;
 
             const fullList = await fetchList();
+            const realList = fullList.filter(([lvl, _]) => lvl.rank != null);
 
-            if (fullList.filter(([_, err]) => err).length > 0) {
+            if (realList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
                     'List is currently broken. Wait until it\'s fixed to start a roulette.',
@@ -179,16 +180,16 @@ export default {
                 return;
             }
 
-            const fullListMapped = fullList.map(([lvl, _], i) => ({
+            const realListMapped = realList.map(([lvl, _], i) => ({
                 rank: i + 1,
                 id: lvl.id,
                 name: lvl.name,
                 video: lvl.verification,
             }));
             const list = [];
-            if (this.useMainList) list.push(...fullListMapped.slice(0, 75));
+            if (this.useMainList) list.push(...realListMapped.slice(0, 75));
             if (this.useExtendedList) {
-                list.push(...fullListMapped.slice(75, 150));
+                list.push(...realListMapped.slice(75, 150));
             }
 
             // random 100 levels
